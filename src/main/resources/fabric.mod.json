@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "minefishing",
+	"version": "${version}",
+	"name": "MINEFISHING",
+	"description": "WEBFISHING looks a little squarer than usual",
+	"authors": [
+		"VeryCoolDog (Code)", "pwlv (Models <not implemented>)", "westthewerst (original game. go buy it!)"
+	],
+	"contact": {
+		"homepage": "not yet",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/minefishing/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"vcd.minefishing.Minefishing"
+		],
+		"client": [
+			"vcd.minefishing.MinefishingClient"
+		],
+		"fabric-datagen": [
+			"vcd.minefishing.DataGenerator"
+		]
+	},
+	"mixins": [
+		"minefishing.mixins.json",
+		{
+			"config": "minefishing.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
