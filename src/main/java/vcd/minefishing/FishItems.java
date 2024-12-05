@@ -1,7 +1,6 @@
 package vcd.minefishing;
 
 import com.google.common.base.Function;
-import net.minecraft.item.FishingRodItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;

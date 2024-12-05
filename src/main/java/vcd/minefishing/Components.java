@@ -28,13 +28,13 @@ public class Components {
 			Identifier.of(Minefishing.MOD_ID, "flavour"),
 			ComponentType.<String>builder().codec(Codec.STRING).build()
 	);
-
+/*
 	public static final ComponentType<Integer> TIER = Registry.register(
 			Registries.DATA_COMPONENT_TYPE,
 			Identifier.of(Minefishing.MOD_ID, "tier"),
 			ComponentType.<Integer>builder().codec(Codec.INT).build()
 	);
-
+*/
 	public static final ComponentType<Double> SIZE = Registry.register(
 			Registries.DATA_COMPONENT_TYPE,
 			Identifier.of(Minefishing.MOD_ID, "size"),
