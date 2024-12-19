@@ -86,6 +86,17 @@
   "item.minefishing.sciname.info": "%1$s",
   "item.minefishing.flavour.info": "%1$s",
   "item.minefishing.size.info": "%1$sm",
-  "item.minefishing.value.info": "$%1$s"
+  "item.minefishing.value.info": "$%1$s",
+
+  "item.minefishing.simple_rod": "Simple Fishing Rod",
+  "item.minefishing.spectral_rod": "Spectral Rod",
+  "item.minefishing.travelers_rod": "Traveler's Fishing Rod",
+  "item.minefishing.collectors_rod": "Collector's Fishing Rod",
+  "item.minefishing.shining_rod": "Shining Collector's Fishing Rod",
+  "item.minefishing.glistening_rod": "Glistening Collector's Fishing Rod",
+  "item.minefishing.opulent_rod": "Opulent Collector's Fishing Rod",
+  "item.minefishing.radiant_rod": "Radiant Collector's Fishing Rod",
+  "item.minefishing.alpha_rod": "Alpha Collector's Fishing Rod",
+  "item.minefishing.prosperous_rod": "Prosperous Fishing Rod"
 
 }

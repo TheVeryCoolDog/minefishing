@@ -7,9 +7,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class Components {
-	protected static void initialize() {
-		Minefishing.LOGGER.info("Registering {} components", Minefishing.MOD_ID);
-	}
 
 	public static final ComponentType<String> RARITY = Registry.register(
 			Registries.DATA_COMPONENT_TYPE,
@@ -46,4 +43,8 @@ public class Components {
 			Identifier.of(Minefishing.MOD_ID, "value"),
 			ComponentType.<Integer>builder().codec(Codec.INT).build()
 	);
+
+	protected static void initialize() {
+		Minefishing.LOGGER.info("Registering {} components", Minefishing.MOD_ID);
+	}
 }

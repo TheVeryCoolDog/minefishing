@@ -110,5 +110,6 @@ public final class FishGroup {
                     }).build());
 
     public static void initialize() {
+        Minefishing.LOGGER.info("Registering {} Groups", Minefishing.MOD_ID);
     }
 }
